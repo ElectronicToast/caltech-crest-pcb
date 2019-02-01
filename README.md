@@ -1,7 +1,7 @@
 # ruddock-house-crest-pcb
 A PCB keychain with the Ruddock House crest
 
-![keychain](img/keychain.png)
+![Keychain](/img/keychain.PNG)
 
 ## About
 Ruddock House is one of the eight undergraduate student houses in the housing system at Caltech. Ruddock was founded in 1960 in honor of Albert Billings Ruddock, a former Chairman of the Caltech Board of Trustees. Some notable alumni from Ruddock House include Peter Shor, Bill Gross, Eric Betzig, and Michael Rosbash. The current house motto is *Virtutis mammilas exsugimus.*
