@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.0.1)-3*
-G04 #@! TF.CreationDate,2019-02-13T15:59:19-08:00*
+G04 #@! TF.CreationDate,2019-02-23T14:29:16-08:00*
 G04 #@! TF.ProjectId,ruddock_crest,727564646F636B5F63726573742E6B69,A*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.0.1)-3) date 2/13/2019 3:59:19 PM*
+G04 Created by KiCad (PCBNEW (5.0.1)-3) date 2/23/2019 2:29:16 PM*
 %MOMM*%
 %LPD*%
 G01*
