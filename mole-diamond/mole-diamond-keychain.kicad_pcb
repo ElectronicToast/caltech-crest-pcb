@@ -69,10 +69,9 @@
     (pad_to_mask_clearance 0.051)
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
-    (grid_origin 127 127)
-    (visible_elements FFFFFF7F)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -95,9 +94,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -112,7 +111,7 @@
   )
 
   (module crest:blacker_diamond_300_cu (layer B.Cu) (tedit 0) (tstamp 5DFB0AC8)
-    (at 152.4 101.6 180)
+    (at 0 -25.4 180)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -125,7 +124,7 @@
   )
 
   (module crest:blacker_diamond_300_cu (layer F.Cu) (tedit 0) (tstamp 5DFB0AB7)
-    (at 152.4 101.6)
+    (at 0 -25.4)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -138,7 +137,7 @@
   )
 
   (module crest:blacker_diamond_300_silk (layer B.Cu) (tedit 0) (tstamp 5DFB0A76)
-    (at 152.4 101.6 180)
+    (at 0 -25.4 180)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -205,7 +204,7 @@
   )
 
   (module crest:blacker_diamond_300_silk (layer F.Cu) (tedit 0) (tstamp 5DFB0A5D)
-    (at 152.4 101.6)
+    (at 0 -25.4)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -272,7 +271,7 @@
   )
 
   (module crest:blacker_diamond_300_mask (layer B.Cu) (tedit 0) (tstamp 5DFB0A38)
-    (at 152.4 101.6 180)
+    (at 0 -25.4 180)
     (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
@@ -348,7 +347,7 @@
   )
 
   (module crest:blacker_diamond_300_mask (layer F.Cu) (tedit 0) (tstamp 5DFB0A1F)
-    (at 152.4 101.6)
+    (at 0 -25.4)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -424,7 +423,7 @@
   )
 
   (module MountingHole:MountingHole_4.5mm_Pad (layer F.Cu) (tedit 5DFAB43B) (tstamp 5DFB07C1)
-    (at 152.4 73.66)
+    (at 0 -53.34)
     (descr "Mounting Hole 4.5mm")
     (tags "mounting hole 4.5mm")
     (attr virtual)
@@ -443,25 +442,25 @@
   )
 
   (dimension 5.08 (width 0.15) (layer Dwgs.User)
-    (gr_text "5.080 mm" (at 149.86 62.2) (layer Dwgs.User)
+    (gr_text "5.080 mm" (at -2.54 -64.8) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (feature1 (pts (xy 152.4 66.04) (xy 152.4 62.913579)))
-    (feature2 (pts (xy 147.32 66.04) (xy 147.32 62.913579)))
-    (crossbar (pts (xy 147.32 63.5) (xy 152.4 63.5)))
-    (arrow1a (pts (xy 152.4 63.5) (xy 151.273496 64.086421)))
-    (arrow1b (pts (xy 152.4 63.5) (xy 151.273496 62.913579)))
-    (arrow2a (pts (xy 147.32 63.5) (xy 148.446504 64.086421)))
-    (arrow2b (pts (xy 147.32 63.5) (xy 148.446504 62.913579)))
+    (feature1 (pts (xy 0 -60.96) (xy 0 -64.086421)))
+    (feature2 (pts (xy -5.08 -60.96) (xy -5.08 -64.086421)))
+    (crossbar (pts (xy -5.08 -63.5) (xy 0 -63.5)))
+    (arrow1a (pts (xy 0 -63.5) (xy -1.126504 -62.913579)))
+    (arrow1b (pts (xy 0 -63.5) (xy -1.126504 -64.086421)))
+    (arrow2a (pts (xy -5.08 -63.5) (xy -3.953496 -62.913579)))
+    (arrow2b (pts (xy -5.08 -63.5) (xy -3.953496 -64.086421)))
   )
-  (gr_line (start 127 124.46) (end 127 66.04) (layer Dwgs.User) (width 0.15))
-  (gr_line (start 129.54 127) (end 180.34 127) (layer Dwgs.User) (width 0.15))
-  (gr_arc (start 152.4 73.66) (end 156.21 73.66) (angle -180) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 156.21 80.01) (end 156.21 73.66) (layer Edge.Cuts) (width 0.05) (tstamp 5DFB0AD7))
-  (gr_line (start 148.59 73.66) (end 148.59 80.01) (layer Edge.Cuts) (width 0.05) (tstamp 5DFB0AD6))
-  (gr_line (start 177.8 101.6) (end 152.4 127) (layer Edge.Cuts) (width 0.05) (tstamp 5DFB08B0))
-  (gr_line (start 156.21 80.01) (end 177.8 101.6) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 127 101.6) (end 148.59 80.01) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 152.4 127) (end 127 101.6) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start -25.4 0) (end -25.4 -60.96) (layer Dwgs.User) (width 0.15))
+  (gr_line (start -25.4 0) (end 27.94 0) (layer Dwgs.User) (width 0.15))
+  (gr_arc (start 0 -53.34) (end 3.81 -53.34) (angle -180) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 3.81 -46.99) (end 3.81 -53.34) (layer Edge.Cuts) (width 0.05) (tstamp 5DFB0AD7))
+  (gr_line (start -3.81 -53.34) (end -3.81 -46.99) (layer Edge.Cuts) (width 0.05) (tstamp 5DFB0AD6))
+  (gr_line (start 25.4 -25.4) (end 0 0) (layer Edge.Cuts) (width 0.05) (tstamp 5DFB08B0))
+  (gr_line (start 3.81 -46.99) (end 25.4 -25.4) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start -25.4 -25.4) (end -3.81 -46.99) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 0 0) (end -25.4 -25.4) (layer Edge.Cuts) (width 0.05))
 
 )
