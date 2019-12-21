@@ -87,7 +87,7 @@
   <Smoothing>1</Smoothing>
   <ExtraTabDrillDistance>0</ExtraTabDrillDistance>
   <ClipToOutlines>true</ClipToOutlines>
-  <LastExportFolder />
+  <LastExportFolder>C:\Users\xiaobaobao\Documents\GitHub\caltech-crest-pcb\mole-diamond\gerber-panel</LastExportFolder>
   <DoNotGenerateMouseBites>false</DoNotGenerateMouseBites>
   <MergeFileTypes>false</MergeFileTypes>
 </GerberLayoutSet>
