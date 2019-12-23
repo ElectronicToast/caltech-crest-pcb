@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GerberLayoutSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LoadedOutlines>
+    <string>C:\Users\xiaobaobao\Documents\GitHub\caltech-crest-pcb\mudd-small\gerber</string>
+  </LoadedOutlines>
+  <Instances>
+    <GerberInstance>
+      <Center>
+        <X>-121.905365</X>
+        <Y>127.013489</Y>
+      </Center>
+      <Angle>0</Angle>
+      <GerberPath>C:\Users\xiaobaobao\Documents\GitHub\caltech-crest-pcb\mudd-small\gerber</GerberPath>
+      <Generated>false</Generated>
+    </GerberInstance>
+  </Instances>
+  <Tabs />
+  <Width>100</Width>
+  <Height>100</Height>
+  <MarginBetweenBoards>2</MarginBetweenBoards>
+  <ConstructNegativePolygon>false</ConstructNegativePolygon>
+  <FillOffset>3</FillOffset>
+  <Smoothing>1</Smoothing>
+  <ExtraTabDrillDistance>0</ExtraTabDrillDistance>
+  <ClipToOutlines>true</ClipToOutlines>
+  <LastExportFolder />
+  <DoNotGenerateMouseBites>false</DoNotGenerateMouseBites>
+  <MergeFileTypes>false</MergeFileTypes>
+</GerberLayoutSet>
